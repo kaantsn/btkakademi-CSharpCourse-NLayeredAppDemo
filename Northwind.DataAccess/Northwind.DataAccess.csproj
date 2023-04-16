@@ -51,7 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Absrtact\deneme.cs" />
     <Compile Include="Absrtact\ICategoryDal.cs" />
     <Compile Include="Absrtact\IEntityRepository.cs" />
     <Compile Include="Absrtact\IProductDal.cs" />
