@@ -75,7 +75,7 @@ namespace Northwind.WebFormsUI
             }
             else
             {
-                LoadProducts();  
+                LoadProducts();
             }
         }
 
@@ -119,6 +119,24 @@ namespace Northwind.WebFormsUI
             tbxUnitInStockUptade.Text = row.Cells[5].Value.ToString();
 
 
+        }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            if (dgwProduct.CurrentRow != null)
+            {
+                try
+                {
+                    _productService.Delete(new Product
+                    {
+                        ProductId = Convert.ToInt32(dgwProduct.CurrentRow.Cells[0].Value),
+                    });
+                }
+                catch (Exception exception)
+                {
+                    MessageBox.Show(exception.InnerException.InnerException.Message);
+                }
+            }
         }
     }
 }
