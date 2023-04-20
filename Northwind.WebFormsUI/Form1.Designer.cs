@@ -77,7 +77,7 @@
             this.dgwProduct.Name = "dgwProduct";
             this.dgwProduct.RowHeadersWidth = 51;
             this.dgwProduct.RowTemplate.Height = 24;
-            this.dgwProduct.Size = new System.Drawing.Size(815, 215);
+            this.dgwProduct.Size = new System.Drawing.Size(816, 215);
             this.dgwProduct.TabIndex = 0;
             this.dgwProduct.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgwProduct_CellClick);
             // 
@@ -367,9 +367,10 @@
             // 
             // btnRemove
             // 
-            this.btnRemove.Location = new System.Drawing.Point(598, 403);
+            this.btnRemove.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnRemove.Location = new System.Drawing.Point(618, 403);
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(218, 50);
+            this.btnRemove.Size = new System.Drawing.Size(199, 50);
             this.btnRemove.TabIndex = 11;
             this.btnRemove.Text = "Sil";
             this.btnRemove.UseVisualStyleBackColor = true;
@@ -379,7 +380,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(829, 868);
+            this.ClientSize = new System.Drawing.Size(845, 868);
             this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbxProductAdd);

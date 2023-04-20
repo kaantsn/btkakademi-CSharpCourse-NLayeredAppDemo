@@ -9,5 +9,6 @@ namespace Northwind.DataAccess.Absrtact
 {
     public interface IProductDal:IEntityRepository<Product>
     {
+
     }
 }

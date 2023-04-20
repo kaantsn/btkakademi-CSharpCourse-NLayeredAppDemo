@@ -60,7 +60,7 @@ namespace Northwind.Business.Concrete
             catch
             {
 
-                throw new Exception("Silme gerçekleşemedi");
+                throw new Exception("Silme gerçekleşemedi!");
             }
         }
     }
