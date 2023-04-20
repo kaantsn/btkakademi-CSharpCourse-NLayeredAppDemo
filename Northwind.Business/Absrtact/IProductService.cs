@@ -13,6 +13,6 @@ namespace Northwind.Business.Absrtact
         List<Product> GetAll();
         List<Product> GetProductsByCategory(int categoryId);
         List<Product> GetProductsByProductName(string text);
-      
+        void Uptade(Product product);
     }
 }
