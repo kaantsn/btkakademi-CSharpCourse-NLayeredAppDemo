@@ -131,10 +131,12 @@ namespace Northwind.WebFormsUI
                     {
                         ProductId = Convert.ToInt32(dgwProduct.CurrentRow.Cells[0].Value),
                     });
+                    MessageBox.Show("Ürün Silindi!");
+                    LoadProducts();
                 }
                 catch (Exception exception)
                 {
-                    MessageBox.Show(exception.InnerException.InnerException.Message);
+                    MessageBox.Show(exception.Message);
                 }
             }
         }
