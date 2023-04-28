@@ -120,7 +120,6 @@ namespace Northwind.WebFormsUI
 
 
         }
-
         private void btnRemove_Click(object sender, EventArgs e)
         {
             if (dgwProduct.CurrentRow != null)
